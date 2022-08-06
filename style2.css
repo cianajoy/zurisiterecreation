@@ -1,0 +1,147 @@
+body {
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+}
+
+
+.links {
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 30px;
+}
+
+.links li {
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: left;
+}
+
+.links li {
+ float: right;
+}
+
+.links li:first-child {
+float: left;
+}
+
+.links li a {
+    display: inline;
+    width: 60px;
+    margin-top: 3px;
+    text-decoration: none;
+    align-items: left;
+    color: rgb(68, 67, 67);
+}
+
+.links a {
+    display: block;
+    padding: 10px;
+}
+
+.flextumb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.flexh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+}
+
+.flexp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.button {
+    border: none;
+    border-width: 5%;
+    border-radius: 5%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.flexb {
+    display: flex;
+    width: 20%;
+    padding: 1%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width:1020px) {
+
+    body {
+    background-image: url(https://zuri.team/img/hero-bg.svg);;
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    margin: auto;  
+    padding: auto; 
+    }
+    
+    .links {
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+    }
+  }

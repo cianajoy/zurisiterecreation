@@ -1,0 +1,169 @@
+.main {
+background-image: url(https://zuri.team/img/hero-bg.svg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family: Averta, sans-serif;
+color: rgb(33, 37, 41);
+}
+
+.flex-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.flex-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 40% ;
+}
+
+.flex-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  text-align: center; 
+}
+
+.flex-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+
+.flex-cont1{
+    background-color:red;
+    margin: 0 auto;
+    margin-right: 15%;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+  .flex-cont2{
+    background-color: white;
+    margin: 0 auto;
+    margin-left: 5%;
+    padding: 10px 40px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    justify-content: center; 
+    align-items: center;  
+  }
+
+  
+  @media (max-width:1020px) {
+
+    body {
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    margin: auto;  
+    padding: auto; 
+    }
+
+    .main {
+      background-image: url(https://zuri.team/img/hero-bg.svg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      font-family: Averta, sans-serif;
+      color: rgb(33, 37, 41);
+      }
+
+    .flex-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+    }
+    
+    .flex-h {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 6%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 40% ;
+    }
+    
+    .flex-para {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4%;
+      text-align: center; 
+    }
+    
+    .flex-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 8%;
+      flex-direction: column;
+    }
+    
+    
+    .flex-cont1{
+        background-color:red;
+        margin: 0 auto;
+        margin-right: 15%;
+        padding: 10px 40px;
+        color: white;
+        border: none;
+        border-radius: 1px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer; 
+        justify-content: center; 
+        align-items: center; 
+      }
+    
+    
+      .flex-cont2{
+        background-color: white;
+        margin: 0 auto;
+        margin-left: 5%;
+        padding: 10px 40px;
+        color: red;
+        border: 1px solid red;
+        border-radius: 1px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer; 
+        justify-content: center; 
+        align-items: center;  
+      }
+  }
